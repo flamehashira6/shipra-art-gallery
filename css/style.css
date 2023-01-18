@@ -53,7 +53,7 @@ main {
           transform: rotate(360deg);
 }
 
-.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-github, .fa-instagram {
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-youtube, .fa-github, .fa-instagram {
   font-size: 25px;
 }
 
@@ -84,16 +84,6 @@ main {
   background: #fefefe;
   border-color: white;
 }
-.rounded-social-buttons .social-button.linkedin {
-  background: #007bb5;
-}
-
-.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
-  color: #007bb5;
-  background: #fefefe;
-  border-color: #007bb5;
-}
-
 .rounded-social-buttons .social-button.youtube {
   background: #bb0000;
 }
@@ -101,7 +91,7 @@ main {
 .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
   color: #bb0000;
   background: #fefefe;
-  border-color: #bb0000;
+  border-color: #007bb5;;
 }
 
 .rounded-social-buttons .social-button.instagram {
@@ -127,8 +117,8 @@ main {
   top: 0px;
 }
 .masonry { /* Masonry container */
-  -webkit-column-count: 4;
--moz-column-count:4;
+  -webkit-column-count: 5;
+-moz-column-count:5;
 column-count: 4;
 -webkit-column-gap: 1em;
 -moz-column-gap: 1em;
